@@ -1,0 +1,14 @@
+div {
+  color: "#3089d5";
+}
+.container {
+  display: flex;
+}
+.container .nav-left {
+  width: 15%;
+  min-width: 180px;
+  height: calc(100vh);
+}
+.container .main {
+  flex: 1;
+}

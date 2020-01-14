@@ -1,0 +1,34 @@
+.header .header-top {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  text-align: right;
+}
+.header .header-top a {
+  margin-left: 40px;
+}
+.header .breadcrumb {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  border-top: solid 1px #f0c700;
+}
+.header .breadcrumb .breadcrumb-title {
+  text-align: center;
+}
+.header .breadcrumb .weather {
+  text-align: right;
+  font-size: 14px;
+}
+.header .breadcrumb .weather .date {
+  vertical-align: middle;
+}
+.header .breadcrumb .weather .weather-img img {
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.header .breadcrumb .weather .weather-detail {
+  margin-left: 10px;
+  vertical-align: middle;
+}

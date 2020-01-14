@@ -1,0 +1,14 @@
+.logo {
+  line-height: 90px;
+  background-color: #002140;
+  padding: 0 10px;
+}
+.logo img {
+  height: 35px;
+}
+.logo h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+  color: #fff;
+}

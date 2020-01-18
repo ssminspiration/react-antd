@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-class Home extends Component {
+class Person extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -8,10 +7,10 @@ class Home extends Component {
     render() { 
         return ( 
             <div>
-                {this.props.children}
+                你好呀，{this.props.match.params.id}
             </div>
          );
     }
 }
  
-export default Home;
+export default Person;

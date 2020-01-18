@@ -9,22 +9,24 @@ class App extends Component {;
     }
     render() { 
         return ( 
-            <div>
-                <h1>App</h1>
-                <ul>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/touch">Touch</Link>
-                    </li>
-                </ul>
-                <hr/>
-                {/* <HashRouter>
+            <HashRouter>
+                <div>
+                    <h1>App</h1>
+                    <ul>
+                        <li>
+                            <Link to="/about">About</Link>
+                            <Link to="/about">About</Link>
+
+                        </li>
+                        <li>
+                            <Link to="/touch">Touch</Link>
+                        </li>
+                    </ul>
+                    <hr/>
                     <Route path="/about" component={About}></Route>
                     <Route path="/touch" component={Touch}></Route>
-                </HashRouter> */}
-            </div>
+                </div>
+            </HashRouter>
          );
     }
 }
